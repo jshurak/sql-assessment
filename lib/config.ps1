@@ -1,8 +1,3 @@
-﻿$Global:CollectionInstance = 'PA01WJSHURAK03\SQL14'
-$Global:CollectionDatabase = 'SHAMU'
-
-$Global:ServerCollectionFrequency=1440
-$Global:InstanceCollectionFrequency=360
-$Global:DatabaseCollectionFrequency=30
-$Global:DataabseFileCollectionFrequency=5
-$global:SleepLength=60
+﻿$Global:ConfigDirectory = "C:\Users\jshurak\Documents\GitHub\SQL-Assessment\lib"
+$Global:QueryDirectory = "C:\Users\jshurak\Documents\GitHub\SQL-Assessment\queries"
+$Global:InstanceList = get-content "$Global:ConfigDirectory\InstanceList.txt"
