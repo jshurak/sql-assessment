@@ -58,3 +58,4 @@ function log-message {
     $outMessage | out-file -append -filepath $outfile
 
 }
+

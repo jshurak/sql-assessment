@@ -1,0 +1,10 @@
+DatabaseName,Page_verify_option_desc,recovery_model_desc,state,is_auto_close_on,is_auto_shrink_on,user_access_desc,collation_name,compatibility_level,is_auto_create_stats_on,size
+master,CHECKSUM,SIMPLE,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,768
+tempdb,CHECKSUM,SIMPLE,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,1368
+model,CHECKSUM,FULL,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,504
+msdb,CHECKSUM,SIMPLE,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,12624
+sql14,CHECKSUM,FULL,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,510
+AdventureWorks2008,CHECKSUM,SIMPLE,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,100,True,27208
+tpcc,CHECKSUM,FULL,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,23008
+AMR_DWH,CHECKSUM,SIMPLE,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,212480
+Shamu,NONE,FULL,0,False,False,MULTI_USER,SQL_Latin1_General_CP1_CI_AS,120,True,640

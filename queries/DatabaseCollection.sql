@@ -15,13 +15,12 @@ exec sp_MSforeachdb N'USE [?]
 '
 
 select Name as DatabaseName
-	,sdb.database_id as LocalDatabaseID
-	,page_verify_option
-	,recovery_model
+	,page_verify_option_desc
+	,recovery_model_desc
 	,state
 	,is_auto_close_on
 	,is_auto_shrink_on
-	,user_access
+	,user_access_desc
 	,collation_name
 	,compatibility_level
 	,is_auto_create_stats_on
