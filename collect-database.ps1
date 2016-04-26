@@ -15,9 +15,10 @@
         Remove-Item $OutputFile
     }
     New-Item -ItemType file $OutputFile
-    Add-Content -Path $OutputFile -Value "DatabaseName,Page_verify_option_desc,recovery_model_desc,state,is_auto_close_on,is_auto_shrink_on,user_access_desc,collation_name,compatibility_level,is_auto_create_stats_on,size"
+    Add-Content -Path $OutputFile -Value "ServerName,DatabaseName,Page_verify_option_desc,recovery_model_desc,state,is_auto_close_on,is_auto_shrink_on,user_access_desc,collation_name,compatibility_level,is_auto_create_stats_on,size"
 
     Submit-SQLStatement -ServerInstance $InstanceName -Query $Query -Database 'master' | % {
+        $ServerName = $_.ServerName
         $DatabaseName = $_.DatabaseName
         $PageVerifyOption = $_.Page_verify_option_desc
         $RecoveryModel = $_.recovery_model_desc
@@ -30,7 +31,7 @@
         $AutoStat = $_.is_auto_create_stats_on
         $Size = $_.size
 
-        Add-Content -Path $OutputFile -Value "$DatabaseName,$PageVerifyOption,$RecoveryModel,$State,$AutoClose,$AutoShrink,$UserAccess,$Collation,$Compat,$AutoStat,$Size"
+        Add-Content -Path $OutputFile -Value "$ServerName,$DatabaseName,$PageVerifyOption,$RecoveryModel,$State,$AutoClose,$AutoShrink,$UserAccess,$Collation,$Compat,$AutoStat,$Size"
 
     }
 }

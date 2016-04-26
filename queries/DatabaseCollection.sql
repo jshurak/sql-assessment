@@ -14,7 +14,8 @@ exec sp_MSforeachdb N'USE [?]
 	FROM sys.database_files
 '
 
-select Name as DatabaseName
+select @@SERVERNAME as ServerName
+	,Name as DatabaseName
 	,page_verify_option_desc
 	,recovery_model_desc
 	,state
