@@ -1,0 +1,2 @@
+ServerName,DatabaseName,Recovery_model_desc,LastFullBackup,LastLogBackup,LastDiffBackup,LastFileGroupBackup,LastFileGroupDiffBackup,LastPartialBackup,LastPartialDiffBackup
+PA01WJSHURAK03\SQL14,sql14,FULL,04/21/2016 14:33:22,No Log Backups,No Differential backups,No Filegroup backups,No Filegroup differentials,No Partial Backups,No Partial differentials
