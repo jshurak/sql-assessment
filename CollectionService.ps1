@@ -4,8 +4,8 @@
 
 foreach($Instance in $InstanceList)
 {
-    collect-database -InstanceName $Instance -Query $DatabaseQuery -OutputDirectory $OutputDirectory
-    collect-waits -InstanceName $Instance -Query $WaitsQuery -OutputDirectory $OutputDirectory
-    collect-signalwaits -InstanceName $Instance -Query $SignalQuery -OutputDirectory $OutputDirectory
-    collect-backups -InstanceName $Instance -Query $BackupQuery -OutputDirectory $OutputDirectory
+    collect-info -InstanceName $Instance -Query $DatabaseQuery -OutputDirectory $OutputDirectory -Module 'Database'
+    collect-info -InstanceName $Instance -Query $WaitsQuery -OutputDirectory $OutputDirectory -Module 'WaitStats'
+    collect-info -InstanceName $Instance -Query $SignalQuery -OutputDirectory $OutputDirectory -Module 'SignalWaits'
+    collect-info -InstanceName $Instance -Query $BackupQuery -OutputDirectory $OutputDirectory -Module 'Backups'
 }
