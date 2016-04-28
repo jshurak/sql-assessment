@@ -35,7 +35,11 @@
         $row=""
         foreach($p in $Properties)
         {
-            $row = "$row,$($r.$($p.name))"
+            $value = $($r.$($p.name))
+            
+            $value = $value -replace ',','`'
+            
+            $row = "$row,$value"
         }
         $row = $row.Substring(1)
      

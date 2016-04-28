@@ -1,7 +1,10 @@
 select @@SERVERNAME as ServerName
 	,sd.Name as DatabaseName
 	,sd.recovery_model_desc
-	,d.LastFullBackup
+	,CASE
+		WHEN d.LastFullBackup IS NULL THEN 'No Full Backups'
+		ELSE CAST(d.LastFullBackup AS VARCHAR)
+	END LastFullBackup
 	,CASE
 		WHEN sd.Recovery_model = 3 THEN 'NA'
 		WHEN sd.Recovery_model <> 3 AND L.LastLogBackup IS NULL THEN 'No Log Backups'
@@ -28,7 +31,7 @@ select @@SERVERNAME as ServerName
 		ELSE CAST(q.LastBackup AS VARCHAR)
 	END LastPartialDiffBackup
 FROM sys.databases sd
-	INNER JOIN
+	LEFT OUTER JOIN
 (select
 	Database_Name
 	,MAX(backup_finish_date) LastFullBackup
