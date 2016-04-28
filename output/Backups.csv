@@ -1,4 +1,14 @@
 DatabaseName,LastDiffBackup,LastFileGroupBackup,LastFileGroupDiffBackup,LastFullBackup,LastLogBackup,LastPartialBackup,LastPartialDiffBackup,recovery_model_desc,ServerName
+master,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03
+tempdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03
+model,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
+msdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03
+NGProd,No Differential backups,No Filegroup backups,No Filegroup differentials,Feb  9 2016 12:54PM,Feb 11 2016 12:00PM,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
+NGProd_MONTHLY,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
+TDE_Test,No Differential backups,No Filegroup backups,No Filegroup differentials,Feb 26 2016  2:05PM,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
+tde_test_compress,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
+tpcc,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
+SHAMU,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03
 master,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
 tempdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
 model,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14
@@ -9,3 +19,8 @@ tpcc,No Differential backups,No Filegroup backups,No Filegroup differentials,No 
 AMR_DWH,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
 Shamu,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14
 test08r2,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14
+master,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14A
+tempdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14A
+model,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14A
+msdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14A
+testdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14A

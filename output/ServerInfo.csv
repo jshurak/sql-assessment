@@ -1,0 +1,4 @@
+Collation,ComputerNamePhysicalNetBIOS,Edition,Instance,IsClustered,IsFullTextInstalled,IsIntegratedSecurityOnly,MachineName,ProcessID,ProductLevel,ProductVersion,ServerName
+SQL_Latin1_General_CP1_CI_AS,PA01WJSHURAK03,Enterprise Evaluation Edition (64-bit),,0,0,1,PA01WJSHURAK03,12216,CTP3.2,13.0.900.73,PA01WJSHURAK03
+SQL_Latin1_General_CP1_CI_AS,PA01WJSHURAK03,Developer Edition (64-bit),SQL14,0,0,0,PA01WJSHURAK03,12628,SP1,12.0.4100.1,PA01WJSHURAK03\SQL14
+SQL_Latin1_General_CP1_CI_AS,PA01WJSHURAK03,Developer Edition (64-bit),SQL14A,0,0,0,PA01WJSHURAK03,9220,SP1,12.0.4100.1,PA01WJSHURAK03\SQL14A
