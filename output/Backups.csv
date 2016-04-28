@@ -3,7 +3,7 @@ master,No Differential backups,No Filegroup backups,No Filegroup differentials,N
 tempdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
 model,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14
 msdb,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
-sql14,No Differential backups,No Filegroup backups,No Filegroup differentials,Apr 21 2016  2:33PM,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14
+sql14,No Differential backups,No Filegroup backups,No Filegroup differentials,Apr 21 2016  2:33PM,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
 AdventureWorks2008,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14
 tpcc,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,No Log Backups,No Partial Backups,No Partial differentials,FULL,PA01WJSHURAK03\SQL14
 AMR_DWH,No Differential backups,No Filegroup backups,No Filegroup differentials,No Full Backups,NA,No Partial Backups,No Partial differentials,SIMPLE,PA01WJSHURAK03\SQL14

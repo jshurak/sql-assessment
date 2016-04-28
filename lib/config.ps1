@@ -4,10 +4,12 @@ $Global:QueryDirectory = "$RootDirectory\queries"
 $Global:InstanceList = get-content "$ConfigDirectory\InstanceList.txt"
 $Global:OutputDirectory = "$RootDirectory\output\"
 $Global:DatabaseQuery = [io.file]::ReadAllText("$QueryDirectory\DatabaseCollection.sql")
+$Global:DatabaseFileQuery = [io.file]::ReadAllText("$QueryDirectory\DatabaseFileCollection.sql")
 $Global:InstanceQuery = [io.file]::ReadAllText("$QueryDirectory\InstanceCollection.sql")
 $Global:WaitsQuery = [io.file]::ReadAllText("$QueryDirectory\WaitCollection.sql")
 $Global:SignalQuery = [io.file]::ReadAllText("$QueryDirectory\SignalCollection.sql")
 $Global:BackupQuery = [io.file]::ReadAllText("$QueryDirectory\BackupCollection.sql")
 $Global:SConfigQuery = [io.file]::ReadAllText("$QueryDirectory\ServerConfigurationsCollection.sql")
+$Global:LoginQuery = [io.file]::ReadAllText("$QueryDirectory\LoginCountCollection.sql")
 . "$ConfigDirectory\functions.ps1"
 . "$RootDirectory\Collection\collect-info.ps1"
