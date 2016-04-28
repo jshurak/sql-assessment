@@ -9,3 +9,4 @@ $Global:WaitsQuery = [io.file]::ReadAllText("$QueryDirectory\WaitCollection.sql"
 $Global:SignalQuery = [io.file]::ReadAllText("$QueryDirectory\SignalCollection.sql")
 $Global:BackupQuery = [io.file]::ReadAllText("$QueryDirectory\BackupCollection.sql")
 . "$ConfigDirectory\functions.ps1"
+. "$RootDirectory\Collection\collect-info.ps1"

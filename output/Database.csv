@@ -1,0 +1,2 @@
+collation_name,compatibility_level,DatabaseName,is_auto_close_on,is_auto_create_stats_on,is_auto_shrink_on,page_verify_option_desc,recovery_model_desc,ServerName,size,state,user_access_desc
+SQL_Latin1_General_CP1_CI_AS,120,master,False,True,False,CHECKSUM,SIMPLE,PA01WJSHURAK03\SQL14,768,0,MULTI_USER

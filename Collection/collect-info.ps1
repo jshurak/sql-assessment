@@ -32,6 +32,7 @@
     
    foreach($r in $Results)
    {
+        $row=""
         foreach($p in $Properties)
         {
             $row = "$row,$($r.$($p.name))"
